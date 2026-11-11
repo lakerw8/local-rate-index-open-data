@@ -1,0 +1,41 @@
+{
+  "title": "Local Rate Index — US Metropolitan Service Price Quartiles, Statutory Fee Caps & State-License Verification Datasets (2026)",
+  "upload_type": "dataset",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Local Rate Index Research",
+      "affiliation": "LocalRateIndex.com"
+    }
+  ],
+  "description": "Anonymized ZIP-level and metropolitan service rate quartiles (p25, median/p50, p75 USD), municipal/police statutory fee caps, and public-record sample counts across 7 regulated B2B, commercial compliance, and specialty emergency verticals (Water Damage & TMARR Mold Remediation, LA OPG Heavy-Duty Commercial Towing, ALTA/NSPS Land Surveying, ASTM E1527-21 Phase I ESA, TX TDLR Property Tax Protest, Structural Slab Foundation Piering, and NFPA 96 Commercial Kitchen Hood & Municipal FOG Compliance). Calibrated against 97,000+ primary government records from City of Dallas Socrata APIs, US EPA Facility Registry Service (FRS), Texas TDLR, and Los Angeles Police Commission OPG schedules.",
+  "keywords": [
+    "service price benchmark",
+    "municipal building permits",
+    "statutory fee caps",
+    "water damage remediation cost",
+    "heavy duty towing rates",
+    "Phase I ESA cost",
+    "ALTA land survey cost",
+    "foundation repair cost",
+    "NFPA 96 hood cleaning",
+    "open government data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://localrateindex.com",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://localrateindex.com/methodology",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://localrateindex.com/quote-auditor",
+      "relation": "isCompiledBy",
+      "resource_type": "software"
+    }
+  ]
+}
