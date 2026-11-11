@@ -1,6 +1,8 @@
 # Local Rate Index — Public Service Price & License Benchmark Datasets (2026)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24144438.svg)](https://doi.org/10.5281/zenodo.24144438)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+**CERN Zenodo DOI:** [https://doi.org/10.5281/zenodo.24144438](https://doi.org/10.5281/zenodo.24144438)  
 **Canonical Index:** [https://localrateindex.com](https://localrateindex.com)  
 **Interactive Written Quote Auditor:** [https://localrateindex.com/quote-auditor](https://localrateindex.com/quote-auditor)  
 **Methodology & Provenance:** [https://localrateindex.com/methodology](https://localrateindex.com/methodology)  
