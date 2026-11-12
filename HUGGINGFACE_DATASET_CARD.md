@@ -19,6 +19,7 @@ tags:
 
 # Local Rate Index — US Metropolitan Service Price Quartiles & Statutory Fee Caps (2026)
 
+- **Official CERN Zenodo DOI:** [https://doi.org/10.5281/zenodo.24144438](https://doi.org/10.5281/zenodo.24144438) *(Concept DOI: `10.5281/zenodo.24144437`)*
 - **Canonical Live Index:** [https://localrateindex.com](https://localrateindex.com)
 - **Interactive Quote & Statutory Cap Auditor:** [https://localrateindex.com/quote-auditor](https://localrateindex.com/quote-auditor)
 - **Methodology & Primary Provenance:** [https://localrateindex.com/methodology](https://localrateindex.com/methodology)
@@ -38,6 +39,20 @@ This dataset provides reproducible, zero-PII ZIP-level and metropolitan service 
 6. `tx_dallas-fort-worth_property-tax-protest_2026.csv` — `TX TDLR` `803` active DFW Property Tax Consultants (`7358-krk7`) & `DCAD/CCAD/TAD` schedules
 7. `tx_dallas-fort-worth_commercial-kitchen-hood-grease_2026.csv` — City of Dallas `78,984` food establishment inspections (`dri5-wcct`), `NFPA 96` & `DWU` `25%` `FOG` rules
 
+## Citation (BibTeX)
+
+```bibtex
+@dataset{localrateindex_2026_24144438,
+  author       = {{Local Rate Index Research Group}},
+  title        = {Local Rate Index: US Metropolitan Service Price Quartiles and Statutory Fee Caps (2026)},
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v2026.12.1},
+  doi          = {10.5281/zenodo.24144438},
+  url          = {https://doi.org/10.5281/zenodo.24144438}
+}
+```
+
 ## License & Attribution
 
-Released under **CC-BY-4.0**. Please cite `https://localrateindex.com` when referencing or redistributing.
+Released under **CC-BY-4.0**. Please cite `https://doi.org/10.5281/zenodo.24144438` and `https://localrateindex.com` when referencing or redistributing.
