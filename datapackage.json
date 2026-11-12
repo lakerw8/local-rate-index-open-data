@@ -1,0 +1,153 @@
+{
+  "profile": "tabular-data-package",
+  "name": "local-rate-index-open-data",
+  "title": "Local Rate Index — US Metropolitan Service Price Quartiles & Statutory Fee Caps (2026)",
+  "version": "2026.12.1",
+  "id": "https://doi.org/10.5281/zenodo.24144438",
+  "homepage": "https://localrateindex.com",
+  "description": "Zero-PII metropolitan and ZIP-level service price quartiles (p25, median, p75 in USD), municipal/state statutory fee caps, and government sample counts across 7 regulated emergency, property, and commercial compliance verticals.",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "City of Dallas Building Permits (e7gq-4sah) & Food Inspections (dri5-wcct)",
+      "path": "https://www.dallasopendata.com"
+    },
+    {
+      "title": "Los Angeles Police Commission Official Police Garage (OPG) Tariff",
+      "path": "https://www.lapdonline.org/office-of-the-police-commission/"
+    },
+    {
+      "title": "Texas Department of Licensing and Regulation (TDLR 16 TAC Ch. 78 & 7358-krk7)",
+      "path": "https://www.tdlr.texas.gov"
+    },
+    {
+      "title": "US EPA Facility Registry Service (FRS)",
+      "path": "https://www.epa.gov/frs"
+    }
+  ],
+  "resources": [
+    {
+      "name": "tx_dallas_fort_worth_water_damage_remediation_2026",
+      "path": "datasets/tx_dallas-fort-worth_water-damage-remediation_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "ca_los_angeles_heavy_duty_towing_2026",
+      "path": "datasets/ca_los-angeles_heavy-duty-towing_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "tx_dallas_fort_worth_foundation_repair_2026",
+      "path": "datasets/tx_dallas-fort-worth_foundation-repair_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "tx_dallas_fort_worth_land_surveying_2026",
+      "path": "datasets/tx_dallas-fort-worth_land-surveying_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "tx_dallas_fort_worth_phase_1_esa_2026",
+      "path": "datasets/tx_dallas-fort-worth_phase-1-esa_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "tx_dallas_fort_worth_property_tax_protest_2026",
+      "path": "datasets/tx_dallas-fort-worth_property-tax-protest_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "tx_dallas_fort_worth_commercial_kitchen_hood_grease_2026",
+      "path": "datasets/tx_dallas-fort-worth_commercial-kitchen-hood-grease_2026.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    }
+  ],
+  "schema": {
+    "fields": [
+      {
+        "name": "state_code",
+        "type": "string"
+      },
+      {
+        "name": "metro_slug",
+        "type": "string"
+      },
+      {
+        "name": "city_slug",
+        "type": "string"
+      },
+      {
+        "name": "zip_code",
+        "type": "string"
+      },
+      {
+        "name": "vertical_slug",
+        "type": "string"
+      },
+      {
+        "name": "sample_size",
+        "type": "integer"
+      },
+      {
+        "name": "p25_price_usd",
+        "type": "number"
+      },
+      {
+        "name": "median_price_usd",
+        "type": "number"
+      },
+      {
+        "name": "p75_price_usd",
+        "type": "number"
+      },
+      {
+        "name": "unit_label",
+        "type": "string"
+      },
+      {
+        "name": "statutory_fee_or_cap_usd",
+        "type": "number"
+      },
+      {
+        "name": "statutory_fee_label",
+        "type": "string"
+      },
+      {
+        "name": "source_updated_at",
+        "type": "date"
+      },
+      {
+        "name": "canonical_url",
+        "type": "string",
+        "format": "uri"
+      }
+    ]
+  }
+}
