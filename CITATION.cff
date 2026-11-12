@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Local Rate Index — US Metropolitan Service Price Quartiles & Statutory Fee Caps (2026)"
+message: "If you reference these pricing quartiles, statutory fee caps, or permit sample counts, please cite using the metadata below."
+type: dataset
+authors:
+  - name: "Local Rate Index Research Group"
+    website: "https://localrateindex.com"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24144438
+    description: "CERN Zenodo Version DOI (v2026.12.1)"
+  - type: doi
+    value: 10.5281/zenodo.24144437
+    description: "CERN Zenodo Concept DOI (all versions)"
+repository-code: "https://github.com/lakerw8/local-rate-index-open-data"
+url: "https://localrateindex.com"
+license: CC-BY-4.0
+version: "2026.12.1"
+date-released: "2026-11-11"
+keywords:
+  - pricing-benchmarks
+  - municipal-permits
+  - statutory-tariffs
+  - foundation-repair
+  - heavy-duty-towing
+  - water-damage-remediation
+  - phase-1-esa
+  - land-surveying
+  - property-tax-protest
