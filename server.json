@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.localrateindex/mcp",
+  "description": "Public-record US metro & ZIP service rate quartiles, statutory fee caps, and quote auditing.",
+  "status": "active",
+  "version": "1.2.0",
+  "website_url": "https://localrateindex.com",
+  "repository": {
+    "url": "https://github.com/lakerw8/local-rate-index-open-data",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://localrateindex.com/api/mcp"
+    }
+  ]
+}

@@ -6,8 +6,10 @@
 **Canonical Index:** [https://localrateindex.com](https://localrateindex.com)  
 **Interactive Written Quote Auditor:** [https://localrateindex.com/quote-auditor](https://localrateindex.com/quote-auditor)  
 **Methodology & Provenance:** [https://localrateindex.com/methodology](https://localrateindex.com/methodology)  
-**Machine-Readable Agent Directory:** [https://localrateindex.com/llms.txt](https://localrateindex.com/llms.txt)  
-**MCP Server (Streamable HTTP JSON-RPC 2.0):** `https://localrateindex.com/api/mcp`
+**Machine-Readable Agent Directory (`llms.txt`):** [https://localrateindex.com/llms.txt](https://localrateindex.com/llms.txt)  
+**Full AI Retrieval Corpus (`llms-full.txt`):** [https://localrateindex.com/llms-full.txt](https://localrateindex.com/llms-full.txt)  
+**Live Open-Benchmark Index Pulse JSON API (CORS `*`):** [https://localrateindex.com/api/public/index-pulse](https://localrateindex.com/api/public/index-pulse)  
+**MCP Server (`v1.2.0` Streamable HTTP — Tools, Resources & Prompts):** `https://localrateindex.com/api/mcp` ([`server.json`](./server.json) · [`smithery.yaml`](./smithery.yaml))
 
 ---
 

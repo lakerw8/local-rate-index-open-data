@@ -1,0 +1,8 @@
+# Smithery remote Streamable HTTP MCP Server configuration (zero API keys required)
+# Upstream endpoint: https://localrateindex.com/api/mcp (transport: streamable-http, MCP v1.2.0)
+startCommand:
+  type: http
+  url: https://localrateindex.com/api/mcp
+  configSchema:
+    type: object
+    properties: {}
